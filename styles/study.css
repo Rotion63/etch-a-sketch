@@ -1,0 +1,78 @@
+*{
+    border:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/background.jpg);
+}
+
+.headingName{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color: crimson;
+}
+
+main{
+    display: flex;
+    justify-content: start;
+}
+
+#mainWrapper{
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 50px;
+
+}
+
+.buttonContain{
+    display: inline;
+    justify-content: center;
+    background-color: rgb(33, 50, 53);
+    margin-right: 40px;
+    width:250px;
+    border-radius: 15px;
+}
+
+.askBoxButton{
+    border:black;
+    border-style: solid;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.askBoxButton:hover{
+    background: greenyellow;
+}
+
+.clearButton{
+    border:black;
+    border-style: solid;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.clearButton:hover{
+    background-color:rgb(241, 36, 36);
+}
+
+.gridWrapper{
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color:white;
+    border: black;
+    border-style: solid;
+}
